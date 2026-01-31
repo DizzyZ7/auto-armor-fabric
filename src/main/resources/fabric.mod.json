@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "auto_armor",
+  "version": "1.0.0",
+  "name": "Auto Armor",
+  "description": "Smart armor replacement system by DizzyZ7.",
+  "authors": ["DizzyZ7"],
+  "contact": {
+    "sources": "https://github.com/DizzyZ7/auto-armor-fabric"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.dizzyz7.autoarmor.AutoArmorMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "fabric-api": "*"
+  }
+}
